@@ -1,0 +1,12 @@
+.background {
+  /* background: linear-gradient(rgba(62, 20, 20, 0.4), rgba(62, 20, 20, 0.4)),
+    url("http://localhost:3000/images/back.jpg"); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+  padding: 0.05px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

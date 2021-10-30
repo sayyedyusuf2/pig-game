@@ -1,0 +1,53 @@
+.player-container {
+  width: 50%;
+  height: 100%;
+  padding: 80px;
+  background-color: #fff;
+  text-align: center;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.player-header{
+  font-size: 40px;
+  text-transform: uppercase;
+  font-weight: 100;
+}
+.player-score {
+  font-size: 80px;
+  font-weight: 100;
+  color: #EB4D4D;
+}
+
+.player-current-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #EB4D4D;
+  color: #fff;
+  width: 40%;
+  margin: 0 auto;
+  padding: 12px;
+  text-align: center;
+}
+
+.current-score-header {
+   color: #222;
+   font-size: 12px;
+  }
+
+  .current-score {
+    font-size: 30px;
+}
+
+.active {
+  background-color: #eceaea;
+}
+
+.active .player-header { font-weight: 300; }
+
+.winner {
+  background-color: #f7f7f7;
+}
